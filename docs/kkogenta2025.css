@@ -1,0 +1,223 @@
+/* <system section="theme" selected="smooth"> */
+@import "https://cdn.blog.st-hatena.com/css/theme/smooth/smooth.css";
+/* </system> */
+
+/* <system section="background" selected="default"> */
+/* default */
+/* </system> */
+
+H3{
+  padding-right: 8pt;
+  padding-left: 8pt;
+  margin-left : 8pt;
+  margin-right : 8pt;
+  font-weight : bold;
+}
+H4{
+  padding-right: 8pt;
+  padding-left: 8pt;
+  margin-left : 30pt;
+  margin-right : 30pt;
+  font-weight : bold;
+}
+P{
+  margin-left : 1em;
+  margin-right : 1em;
+}
+HR{
+  color: 
+  height: 1px;
+}
+A:LINK{
+  color:#3333cc;
+  text-decoration:none;
+}
+A:VISITED{
+  color:#333399;
+  text-decoration:none;
+}
+A:ACTIVE{
+  color:#000000;
+  text-decoration:none;
+}
+A:HOVER{
+  color : red;
+  text-decoration : underline;
+}
+UL{
+  list-style-position: outside;
+  list-style-type : disc;
+}
+OL{
+  list-style-type : decimal;
+}
+TD , TH{
+  border: 1px #000000 solid;
+}
+HR{
+  color: 
+  height: 1px;
+}
+CAPTION{
+  color : navy;
+  padding-top: 5pt;
+  padding-right: 5pt;
+  padding-bottom: 5pt;
+  padding-left: 5pt;
+  font-weight : bold;
+}
+.italic{
+  font-style : italic;
+}
+.bold{
+  font-weight : bold;
+}
+.margin_lr{
+  margin-left : 3em;
+  margin-right : 3em;
+}
+.margin_left{
+  margin-left : 3em;
+}
+.center{
+  text-align : center;
+}
+.left_float{
+  float : left;
+}
+.right_float{
+  float : right;
+}
+.large{
+  font-size : large;
+}
+.Xlarge{
+  font-size : x-large;
+}
+.red{
+  color : red;
+}
+.blue{
+  color : blue;
+}
+.red_large{
+  font-size : large;
+  color : red;
+  font-weight : bold;
+}
+.blue_large{
+  font-size : large;
+  font-weight : bolder;
+  color : blue;
+}
+.green{
+  color : green;
+}
+.green_large{
+  font-size : large;
+  font-weight : bolder;
+  color : green;
+}
+.background1{
+  background-color : #ccff99;
+}
+.background2{
+  background-color : #ccffcc;
+}
+.background3{
+  background-color : #ffff99;
+}
+.menu{
+  background-color : #99ff99;
+  font-weight : bold;
+  padding-top : 5pt;
+  padding-bottom : 5pt;
+  padding-left : 5pt;
+  padding-right : 5pt;
+  font-size : medium;
+}
+.slogan{
+  color : navy;
+  background-color : white;
+  font-size : medium;
+  padding-top : 5pt;
+  padding-left : 5pt;
+  padding-right : 5pt;
+  padding-bottom : 5pt;
+  border-width : 1px 1px 1px 1px;
+  border-style : solid solid solid solid;
+  border-top-color : lime;
+  border-right-color : lime;
+  border-bottom-color : lime;
+  border-left-color : lime;
+}
+.small{
+  font-size : 0.7em;
+}
+.large_center{
+  font-size : 1.5em;
+  text-align : center;
+}
+.little_large{
+  font-size : 1.2em;
+}
+.back_green{
+  color : white;
+  background-color : green;
+}
+.back_blue{
+  color : white;
+  background-color : blue;
+}
+.back_violet{
+  color : white;
+  background-color : purple;
+}
+.violet{
+  color : purple;
+}
+.Rigt-limit{
+  text-align : right;
+}
+.img-border{
+  border : 2px solid #000000;
+}
+.back_gray{
+  color : #ffffff;
+  background-color : #696969;
+}
+.back_gray2{
+  color : #000000;
+  background-color : #d3d3d3;
+}
+.td_vmiddle{
+  vertical-align: middle;
+}
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+.td_top{
+  vertical-align: top;
+}
+.sp_line{
+  padding: 0.2rem;
+  margin-bottom: 0.2rem;
+  background: linear-gradient(transparent 60%, #16b5dd 60%);
+  font-weight: bold;
+  font-size: 26px;
+}
+.sp_line2{
+  padding: 0.2rem;
+  margin-bottom: 0.2rem;
+  background: linear-gradient(transparent 60%, #16b5dd 60%);
+  font-weight: bold;
+}
+.left_vertical{
+  padding: 0.4em 0.5em;
+  color: #494949;
+  background: #f4f4f4;
+  border-left: solid 5px #7db4e6;
+  border-bottom: solid 3px #d7d7d7;
+}
+  
