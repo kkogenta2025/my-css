@@ -220,4 +220,38 @@ CAPTION{
   border-left: solid 5px #7db4e6;
   border-bottom: solid 3px #d7d7d7;
 }
-  
+.entry-content .table-of-contents {
+border-top:4px solid #66cdaa; /* 目次枠線太さと色 */
+border-left:4px solid #66cdaa;
+border-right:4px solid #66cdaa;
+border-bottom:4px solid #66cdaa;
+background:#fff; /* 目次内背景色 */
+border-radius:10px; /* 角を丸くする */
+}
+
+.entry-content .table-of-contents::before {
+display:block;
+content:”もくじ”;
+font-size: 20px;/* 文字サイズ */
+color:#66cdaa; /*文字の色 */
+font-weight: bold; /* 太字 */
+text-align:center; /* 中央寄せ */
+border-bottom: 2px dashed #66cdaa; /* 目次内境界線の太さと色下線 */
+/*border-bottom: none;*/
+}
+
+/* リストの先頭マーク */
+.entry-content .table-of-contents li{
+list-style-type:disc; /* 大見出し：黒丸 */
+font-weight: bold; /* 太字 */
+}
+.entry-content .table-of-contents li ul li{
+font-weight: normal; /* 文字標準 */
+}
+.entry-content .table-of-contents li ul li ul li{
+font-weight: normal; /* 文字標準 */
+}
+
+ul.table-of-contents a{
+text-decoration: none; /* リンク下線なし */
+}
